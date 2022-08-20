@@ -1,13 +1,13 @@
 #!/bin/bash
 
 sudo apt update
-sudo apt -y install neofetch
+sudo apt -y purge libreoffice*
+sudo apt -y autoremove
+sudo apt -y install neofetch apt-utils nano ssh openssh-server
 sudo apt -y install python3-pip
 
 sudo -H pip3 install -U pip
 sudo -H pip install -U jetson-stats
-
-sudo usermod -aG docker $USER
 
 git clone https://github.com/dusty-nv/jetson-containers
 
