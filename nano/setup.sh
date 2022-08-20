@@ -16,5 +16,5 @@ git clone https://github.com/NVIDIA-AI-IOT/ros2_torch_trt
 
 neofetch
 
-echo "Set NVIDIA default runtime!!"
-echo "And reboot!"
+echo "Set NVIDIA default runtime with nvruntime-daemon.json!!"
+echo "And reboot!!"
