@@ -1,6 +1,7 @@
 #!/bin/bash
 
 cd ~
+sudo rm -rf ~/Desktop ~/Downloads ~/Pictures ~/Public ~/Templates ~/Videos ~/Music ~/Documents ~/examples.desktop
 
 sudo apt update
 sudo apt -y purge libreoffice*
